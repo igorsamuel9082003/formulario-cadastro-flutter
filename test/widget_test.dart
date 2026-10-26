@@ -18,6 +18,7 @@ void main() {
   testWidgets('mostra erros quando o formulário está vazio', (tester) async {
     await tester.pumpWidget(const CadastroApp());
 
+    await tester.ensureVisible(find.text('CADASTRAR'));
     await tester.tap(find.text('CADASTRAR'));
     await tester.pump();
 
