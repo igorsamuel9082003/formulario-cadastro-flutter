@@ -1,0 +1,24 @@
+# Flutter/Dart/Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Android/iOS generated or local files
+android/.gradle/
+android/local.properties
+ios/Pods/
+ios/.symlinks/
+
+# System files
+.DS_Store
+Thumbs.db
